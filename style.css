@@ -85,7 +85,7 @@ header div {
 }
 
 .about_us {
-    height: 986px;
+    height: 930px;
     background-color: #f8fafa;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -144,4 +144,25 @@ h5 {
     font-size: 16px;
     font-weight: 600;
     padding: 5px 0 15px 0;
+}
+
+.works {
+    height: 934px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.work_examples {
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 348px);
+    grid-template-rows: repeat(2, 337px);
+    grid-column-gap: 14px;
+    grid-row-gap: 14px;
+    margin: 110px 0 0 140px;
+}
+
+.work_examples img {
+    width: 348px;
+    height: 337px;
 }

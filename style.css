@@ -147,13 +147,13 @@ h5 {
 }
 
 .works {
-    height: 934px;
+    height: 1065px;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .work_examples {
-    height: 700px;
+    height: 800px;
     display: grid;
     grid-template-columns: repeat(3, 348px);
     grid-template-rows: repeat(2, 337px);
@@ -165,4 +165,25 @@ h5 {
 .work_examples img {
     width: 348px;
     height: 337px;
+}
+
+.team_part {
+    height: 934px;
+    background-color: #f9fbfb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.team_members {
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 348px);
+    grid-template-rows: repeat(2, 415px);
+    grid-column-gap: 14px;
+    grid-row-gap: 14px;
+    margin: 110px 0 0 140px;
+}
+
+.team_members img {
+    width: 348px;
+    height: 415px;
 }

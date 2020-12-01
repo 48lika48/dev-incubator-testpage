@@ -191,6 +191,48 @@ h5 {
     height: 440px;
 }
 
+.member_info {
+    width: 252px;
+    height: 160px;
+    background-color: #6eeee4;
+    color: #3e3f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 1;
+    left: 18px;
+    bottom: 260px;
+    padding: 38px;
+    visibility: hidden;
+}
+
+.member_info p {
+    line-height: 1.4;
+}
+
+.member_name {
+    color: #3e3f3f;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.member_position {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px 0 10px 0;
+}
+
+.member_info img {
+    width: 14px;
+    height: 12px;
+    margin: 33px 10px 0 0;
+}
+
+.small_socials {
+    display: flex;
+}
+
 footer {
     color: #c9cdd0;
     font-family: Arial, Helvetica, sans-serif;
@@ -211,11 +253,11 @@ form {
     margin-left: 150px;
 }
 
-.my_form div {
+#my_form div {
     padding: 20px 30px 0 30px;
 }
 
-.my_form p {
+#my_form p {
     line-height: 1.8;
     font-size: 16px;
     font-weight: 400;
@@ -331,3 +373,22 @@ h6 {
 .socials img {
     margin: 10px 0 0 15px;
 }
+
+.logo:hover {
+    border: 5px solid #6eeee4;
+}
+
+header button:hover {
+    background: #6eeee4;
+    font-weight: bolder;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.socials div:hover {
+    background-color: #6eeee4;
+}
+
+/* .member_info:hover {
+    visibility: visible;
+} */

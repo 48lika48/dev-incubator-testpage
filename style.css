@@ -29,13 +29,14 @@ header {
 h1 {
     color: #505050;
     text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 42px;
+    font-weight: 900;
     line-height: 1.4;
     word-spacing: 1px;
     letter-spacing: 1px;
     text-shadow: 4px 8px 6px #c8c8ca;
     margin-top: 190px;
+    padding-left: 90px;
 }
 
 .mint {
@@ -56,7 +57,7 @@ header button {
     letter-spacing: 2px;
     border: 2px solid #777879;
     border-radius: 1px;
-    margin: 142px 0 0 44.8%;
+    margin: 138px 0 0 44.8%;
 }
 
 header div {
@@ -92,15 +93,18 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 110px;
 }
 
 h4 {
+    color: gray;
     text-align: center;
     word-spacing: 1px;
     letter-spacing: 1px;
-    padding-top: 5px;
+    font-weight: 600;
+    padding: 6px 0 0 75px;
 }
 
 .about_work {
@@ -126,14 +130,14 @@ h3 {
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 20px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .work_info p {
     color: #3e3f3f;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.8;
-    padding-bottom: 27px;
+    padding-bottom: 28px;
 }
 
 h5 {
@@ -188,13 +192,17 @@ h5 {
 }
 
 footer {
-    background-image: url(assets/christmas_snow_trees.png);
-    background-size: cover;
     color: #c9cdd0;
     font-family: Arial, Helvetica, sans-serif;
-    height: 900px;
+    height: 1050px;
+}
+
+.all_form {
+    background-image: url(assets/christmas_snow_trees.png);
+    background-size: cover;
     display: flex;
     padding-top: 198px;
+    height: 582px;
 }
 
 form {
@@ -220,7 +228,7 @@ form {
 }
 
 .contacts div {
-    padding: 30px;
+    padding: 30px 0 0 30px;
 }
 
 .contacts p {
@@ -271,6 +279,12 @@ a {
     color: #c6cbcf;
 }
 
+.google_map {
+    width: 455px;
+    height: 224px;
+    margin: 20px;
+}
+
 .send {
     width: 245px;
     height: 54px;
@@ -289,4 +303,31 @@ button:focus {
     outline: 0;
 }
 
+.follow_us {
+    height: 316px;
+    background-color: #262b2e;
+}
 
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 90px 0 16px 85px;
+}
+
+.socials {
+    display: flex;
+    margin-left: 45.6%;
+}
+
+.socials div {
+    width: 47px;
+    height: 40px;
+    background-color: #424648;
+    margin-right: 6px;
+}
+
+.socials img {
+    margin: 10px 0 0 15px;
+}

@@ -13,17 +13,17 @@ body {
 }
 
 header {
-    height: 755px;
+    height: 805px;
     background-color: #eff0f2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    width: 80px;
+    width: 88px;
     height: 16px;
     border: 5px solid #170f1c;
     padding: 9px 8px;
-    margin: 60px 0 0 140px;
+    margin: 65px 0 0 150px;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
     word-spacing: 1px;
     letter-spacing: 1px;
     text-shadow: 4px 8px 6px #c8c8ca;
-    margin-top: 175px;
+    margin-top: 190px;
 }
 
 .mint {
@@ -45,39 +45,35 @@ h1 {
     margin: 0 6px;
 }
 
-button {
-    color: #777879;
+header button {
+    color: #606061;
     background: none;
-    width: 218px;
-    height: 50px;
+    width: 232px;
+    height: 52px;
     font-size: 16px;
     font-weight: bold;
     word-spacing: 3px;
     letter-spacing: 2px;
     border: 2px solid #777879;
     border-radius: 1px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-top: 128px;
-    
+    margin: 142px 0 0 44.8%;
 }
 
 header div {
-    margin-left: 78%;
+    margin-left: 83.2%;
 }
 
 .cork_coaster {
-    width: 67px;
-    height: 66px;
+    width: 70px;
+    height: 70px;
     position: relative;
     z-index: 1;
     bottom: 10px;
 }
 
 .glass {
-    width: 65px;
-    height: 66px;
+    width: 66px;
+    height: 67px;
     position: relative;
     z-index: 2;
     bottom: 25px;
@@ -85,9 +81,10 @@ header div {
 }
 
 .about_us {
-    height: 930px;
+    height: 870px;
     background-color: #f8fafa;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 115px;
 }
 
 h2 {
@@ -96,7 +93,6 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     letter-spacing: 1px;
-    padding-top: 105px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -109,12 +105,12 @@ h4 {
 
 .about_work {
     display: flex;
-    padding: 135px 0 0 215px;
+    padding: 145px 0 0 230px;
 }
 
 .workplace {
-    width: 370px;
-    height: 452px;
+    width: 392px;
+    height: 484px;
     box-shadow: 0 0 10px 10px #eaecec;
 }
 
@@ -122,7 +118,7 @@ h4 {
     width: 470px;
     letter-spacing: 0.5px;
     text-align: justify;
-    padding-left: 140px;
+    padding-left: 155px;
 }
 
 h3 {
@@ -130,122 +126,144 @@ h3 {
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 20px;
+    margin-top: 5px;
 }
 
 .work_info p {
     color: #3e3f3f;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.8;
-    padding-bottom: 20px;
+    padding-bottom: 27px;
 }
 
 h5 {
     color: #3e3f3f;
     font-size: 16px;
     font-weight: 600;
-    padding: 5px 0 15px 0;
+    padding: 8px 0 15px 0;
 }
 
 .works {
-    height: 1065px;
+    height: 1050px;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 115px;
 }
 
 .work_examples {
     height: 800px;
     display: grid;
-    grid-template-columns: repeat(3, 348px);
-    grid-template-rows: repeat(2, 337px);
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(2, 360px);
     grid-column-gap: 14px;
-    grid-row-gap: 14px;
-    margin: 110px 0 0 140px;
+    grid-row-gap: 12px;
+    margin: 120px 0 0 150px;
 }
 
 .work_examples img {
-    width: 348px;
-    height: 337px;
+    width: 370px;
+    height: 360px;
 }
 
 .team_part {
     height: 1200px;
     background-color: #f9fbfb;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 85px;
 }
 
 .team_members {
     height: 1100px;
     display: grid;
-    grid-template-columns: repeat(3, 348px);
-    grid-template-rows: repeat(2, 415px);
-    grid-column-gap: 14px;
-    grid-row-gap: 14px;
-    margin: 110px 0 0 140px;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(2, 440px);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: 120px 0 0 150px;
 }
 
 .team_members img {
-    width: 348px;
-    height: 415px;
+    width: 370px;
+    height: 440px;
 }
 
 footer {
     background-image: url(assets/christmas_snow_trees.png);
     background-size: cover;
+    color: #c9cdd0;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact_us {
     height: 900px;
     display: flex;
-    padding-top: 220px;
+    padding-top: 198px;
 }
 
-/* .my_form {
-    margin: 25px 0 0 25px;
-} */
-
-/* .contact_us div {
-    margin: 25px 0 0 25px;
-} */
-
 form {
-    width: 568px;
-    height: 424px;
-    margin-left: 140px;
+    width: 613px;
+    height: 460px;
+    margin-left: 150px;
+}
+
+.my_form div {
+    padding: 20px 30px 0 30px;
+}
+
+.my_form p {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .contacts {
-    width: 460px;
-    height: 424px;
-    margin-left: 24px;
+    width: 500px;
+    height: 460px;
+    margin-left: 26px;
 }
 
-/* .contacts div {
-    margin: 25px 0 0 25px;
-} */
+.contacts div {
+    padding: 30px;
+}
 
 .contacts p {
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 1.8;
 }
 
 .semiopacity {
-    background: #475762;
-    padding: 5px;
+    background: #0e2736;
     opacity: 0.7;
-    filter: alpha(Opacity=70);
-    color: #c9cdd0;
+    color: rgb(240, 240, 240);
 }
 
 input {
-    height: 38px;
-    vertical-align: middle;
+    height: 42px;
+    padding-top: 14px;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    padding-top: 30px;
 }
 
 input, textarea {
-    width: 432px;
-    padding-left: 8px;
+    width: 98%;
+    padding-left: 3px;
+    border: none;
+}
+
+hr {
+    border: none; 
+    color: #c6cbcf;
+    background-color: #c6cbcf;
+    height: 1px; 
+   }
+
+::placeholder { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    opacity: 1;
 }
 
 a {
@@ -254,14 +272,21 @@ a {
 }
 
 .send {
-    width: 260px;
-    height: 50px;
-    vertical-align: middle;
-    text-align: justify;
+    width: 245px;
+    height: 54px;
     border: none;
     background-color: #6eeee4;
     color: #214744;
+    word-spacing: 3px;
     letter-spacing: 2px;
-    padding-left: 30px;
-    /* margin-left: 518px; */
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 37px;
+    padding-bottom: 10px;
 }
+
+button:focus {
+    outline: 0;
+}
+
+

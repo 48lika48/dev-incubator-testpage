@@ -83,27 +83,25 @@
         </section>
     </main>
     <footer> 
-        <section class="contact_us">
+        <form class="my_form semiopacity">
             <div>
-                <form class="my_form semiopacity">
-                    <p><input type="text" name="name" placeholder="Name (Required)" required></p>
-                    <p><input type="text" name="subject" placeholder="Subject"></p>
-                    <p><input type="email" name="email" placeholder="E-mail (Required)" required></p>
-                    <p><textarea name="message" placeholder="Describe your project in detail..."></textarea></p>
-                    <p><input id="form-button" class="send" type="submit" value="SEND MESSAGE"></p>
-                </form>
+                <p><input type="text" class="semiopacity" name="name" placeholder="Name" required></p><hr>
+                <p><input type="text" class="semiopacity" name="subject" placeholder="Subject" required></p><hr>
+                <p><input type="email" class="semiopacity" name="email" placeholder="E-mail" required></p><hr>
+                <p><textarea name="message" class="semiopacity" placeholder="Message" required></textarea></p><hr>
+                <p><input id="form-button" class="send" type="submit" value="SEND MESSAGE"></p>
             </div>
-            <div class="contacts semiopacity">
-                <div>
-                    <p>Adress line 1</p>
-                    <p>Adress line 2</p>
-                    <p>Phone:<a href="callto:+548 945645">+548 945645</a></p>
-                    <p>Fax:<a href="callto:+456456 54546">+456456 54546</a></p><br>
-                    <p>Web:<a href="www.designagency.com">www.designagency.com</a></p>
-                    <p>E-mail:<a href="mailto:info@designagency.com">info@designagency.com</a></p>
-                </div>
+        </form>
+        <div class="contacts semiopacity">
+            <div>
+                <p>Adress line 1</p>
+                <p>Adress line 2</p>
+                <p>Phone:<a href="callto:+548 945645">+548 945645</a></p>
+                <p>Fax:<a href="callto:+456456 54546">+456456 54546</a></p><br>
+                <p>Web:<a href="www.designagency.com">www.designagency.com</a></p>
+                <p>E-mail:<a href="mailto:info@designagency.com">info@designagency.com</a></p>
             </div>
-        </section>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>

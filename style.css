@@ -389,6 +389,6 @@ header button:hover {
     background-color: #6eeee4;
 }
 
-/* .member_info:hover {
+.active {
     visibility: visible;
-} */
+}

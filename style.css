@@ -24,6 +24,7 @@ header {
     border: 5px solid #170f1c;
     padding: 9px 8px;
     margin: 65px 0 0 150px;
+    cursor: pointer;
 }
 
 h1 {
@@ -58,9 +59,11 @@ header button {
     border: 2px solid #777879;
     border-radius: 1px;
     margin: 138px 0 0 44.8%;
+    cursor: pointer;
 }
 
-header div {
+.glass_on_coaster {
+    position: relative;
     margin-left: 83.2%;
 }
 
@@ -167,6 +170,7 @@ h5 {
 .work_examples img {
     width: 370px;
     height: 360px;
+    cursor: pointer;
 }
 
 .team_part {
@@ -227,6 +231,7 @@ h5 {
     width: 14px;
     height: 12px;
     margin: 33px 10px 0 0;
+    cursor: pointer;
 }
 
 .small_socials {
@@ -269,7 +274,7 @@ form {
     margin-left: 26px;
 }
 
-.contacts div {
+.contacts_info {
     padding: 30px 0 0 30px;
 }
 
@@ -307,7 +312,7 @@ hr {
     color: #c6cbcf;
     background-color: #c6cbcf;
     height: 1px; 
-   }
+}
 
 ::placeholder { 
     font-family: Arial, Helvetica, sans-serif;
@@ -319,12 +324,14 @@ hr {
 a {
     text-decoration: none;
     color: #c6cbcf;
+    cursor: pointer;
 }
 
-.google_map {
+#map {
     width: 455px;
     height: 224px;
-    margin: 20px;
+    margin: 19px 23px;
+    cursor: pointer;
 }
 
 .send {
@@ -339,6 +346,7 @@ a {
     font-weight: 700;
     margin-top: 37px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 button:focus {
@@ -368,6 +376,7 @@ h6 {
     height: 40px;
     background-color: #424648;
     margin-right: 6px;
+    cursor: pointer;
 }
 
 .socials img {
@@ -376,6 +385,7 @@ h6 {
 
 .logo:hover {
     border: 5px solid #6eeee4;
+    transition: all 1s ease 0s;
 }
 
 header button:hover {
@@ -387,6 +397,25 @@ header button:hover {
 
 .socials div:hover {
     background-color: #6eeee4;
+}
+
+.send:hover {
+    background: #0e2736;
+    color: #6eeee4;;
+    box-shadow: inset 0 0 0 3px #6eeee4;;
+    transition: all 1s ease 0s;
+}
+
+a { 
+    color: white; transition: 1s; 
+}
+
+a:hover { 
+    color: #6eeee4; 
+}
+
+h2:hover {
+    color: #6eeee4; transition: 1s;
 }
 
 .active {
@@ -410,3 +439,4 @@ header button:hover {
     width: 650px;
     height: 90vh;
 }
+

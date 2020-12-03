@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<9a714a10-db35-4b9b-8edc-358482264671>" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test page</title>
 </head>
@@ -11,7 +12,7 @@
         <img class="logo" src="assets/logo.png" alt="logo">
         <h1>SAY HELLO TO<span class="mint">SHOPNO!</span><br><span class="mint">AGENCY</span>CORPORATE SHOPNO THEME</h1>
         <button>CONTACT US</button>
-        <div>
+        <div class="glass_on_coaster">
             <img class="cork_coaster" src="assets/cork_coaster.png" alt="cork_coaster">
             <img class="glass" src="assets/glass.png" alt="glass">
         </div>
@@ -222,7 +223,7 @@
                 </div>
             </form>
             <div class="contacts semiopacity">
-                <div>
+                <div class="contacts_info">
                     <p>Adress line 1</p>
                     <p>Adress line 2</p>
                     <p>Phone:<a href="callto:+548945645">+548945645</a></p>
@@ -230,9 +231,7 @@
                     <p>Web:<a href="https://www.designagency.com">www.designagency.com</a></p>
                     <p>E-mail:<a href="mailto:info@designagency.com">info@designagency.com</a></p>
                 </div>
-                <div id="map" class="google_map">
-                    <!-- <img class="google_map" src="assets/google_map.png" alt="google_map"> -->
-                </div>
+                <div id="map" ></div>
             </div>
         </div>
         <div class="follow_us">
@@ -254,5 +253,6 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </body>
 </html>

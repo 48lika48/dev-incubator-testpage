@@ -122,3 +122,16 @@ image6.addEventListener('click', (event) => {
   imageBlock.classList.add('hidden');
   image6.classList.add('hidden');
 });
+
+//map 
+//API key 9a714a10-db35-4b9b-8edc-358482264671
+let myMap;
+ymaps.ready(init);
+function init () {
+  myMap = new ymaps.Map('map', {
+    center: [53.132341, 26.017609],
+    zoom: 12
+  }, {
+    searchControlProvider: 'yandex#search'
+  });
+}

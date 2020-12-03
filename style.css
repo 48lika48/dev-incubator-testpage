@@ -392,3 +392,21 @@ header button:hover {
 .active {
     visibility: visible;
 }
+
+.hidden {
+    display: none;
+}
+
+#image_block{
+    position: absolute;
+    width: 650px;
+    height: 90vh;
+    top: 335%;
+    left: 20%;
+    padding: 100px;
+}
+  
+#image_block img {
+    width: 650px;
+    height: 90vh;
+}

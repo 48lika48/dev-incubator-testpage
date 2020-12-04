@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -440,3 +440,410 @@ h2:hover {
     height: 90vh;
 }
 
+@media screen and (max-width: 1150px) {
+    h1 {
+        padding-left: 0;
+    }
+    .works {
+        height: 1350px;
+    }
+    .about_work {
+        padding: 145px 0 0 50px;
+    }
+    .work_info {
+        padding-left: 50px;
+    }
+    .work_examples {
+        height: 800px;
+        display: grid;
+        grid-template-columns: repeat(2, 370px);
+        grid-template-rows: repeat(3, 360px);
+        grid-column-gap: 14px;
+        grid-row-gap: 12px;
+        margin: 120px 0 0 150px;
+    }
+    #image_block {
+        top: 373%;
+        left: 9%;
+    }
+    h2 {
+        padding-left: 0;
+    }    
+    h4 {
+        padding-left: 0;
+    }
+    .team_part {
+        height: 1600px;
+    }
+    .team_members {
+        height: 1400px;
+        grid-template-columns: repeat(2, 370px);
+        grid-template-rows: repeat(3, 440px);
+        margin: 120px 0 0 150px;
+    }
+    form {
+        margin-left: 220px;
+    }
+    .all_form {
+        flex-wrap: wrap;
+        height: 1000px;
+        padding: 50px 0;
+    }
+    .contacts {
+        margin: 50px 0 0 270px;
+    }
+    h6 {
+        padding: 90px 0 16px 0;
+    }
+    .socials {
+        margin-left: 39%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .work_info {
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .glass_on_coaster {
+        margin: 50px 0 0 55%;
+    }
+    h1 {
+        margin-top: 100px;
+    }
+    .about_work {
+        padding: 130px 0 0 30px;
+    }
+    .work_info {
+        width: 300px;
+        padding-left: 30px;
+    }
+    .work_examples {
+        margin: 100px 0 0 15px;
+    }
+    #image_block {
+        left: -33px;
+    }
+    .team_members {
+        margin: 100px 0 0 15px;
+    }
+    form {
+        margin-left: 100px;
+    }
+    .contacts {
+        margin: 50px 0 0 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .glass_on_coaster {
+        margin: 50px 0 0 43%;
+    }
+    h1 {
+        padding-left: 0;
+    }
+    header button {
+        margin: 138px 0 0 30%;
+    }
+    .about_work {
+        flex-wrap: wrap;
+        padding: 100px 0 0 30px;
+    }
+    .workplace {
+        margin-left: 30%;
+    }
+    .work_info {
+        width: 600px;
+        padding: 50px 50px;
+    }
+    .about_us {
+        height: 1150px;
+    }
+    .works {
+        height: 900px;
+    }
+    .work_examples {
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(3, 210px);
+        margin: 120px 0 0 150px;
+    }
+    .work_examples img {
+        width: 220px;
+        height: 210px;
+    }
+    #image_block {
+        position: absolute;
+        width: 440px;
+        height: 420px;
+        top: 410%;
+        left: 20.5%;
+        padding: 0;
+    }
+    #image_block img {
+        width: 440px;
+        height: 420px;
+    }
+    .team_part {
+        height: 2950px;
+    }
+    .team_members {
+        height: 2750px;
+        grid-template-columns: repeat(1, 370px);
+        grid-template-rows: repeat(6, 440px);
+        margin: 120px 0 0 200px;
+    }
+    form {
+        width: 500px;
+        height: 460px;
+        margin-left: 120px;
+    }
+    .contacts {
+        margin: 50px 0 0 120px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .work_info {
+        width: 500px;
+    }
+    .work_examples {
+        margin: 120px 0 0 120px;
+    }
+    #image_block {
+        left: 17.3%;
+    }
+    .team_members {
+        margin: 120px 0 0 150px;
+    }
+    form {
+        margin-left: 100px;
+    }
+    .contacts {
+        margin: 50px 0 0 100px;
+    }
+    .socials {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .about_work {
+        padding: 50px 0 0 10px;
+    }
+    .workplace {
+        margin-left: 10%;
+    }
+    .work_examples {
+        margin: 100px 0 0 15px;
+    }
+    #image_block {
+        left: 4.5%;
+    }
+    .team_members {
+        margin: 120px 0 0 80px;
+    }
+    form {
+        width: 450px;
+        height: 460px;
+        margin-left: 50px;
+    }
+    .contacts {
+        width: 450px;
+        height: 460px;
+        margin: 50px 0 0 50px;
+    }
+    #map {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    form {
+        margin-left: 20px;
+    }
+    .contacts {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header button {
+        margin: 138px 0 0 25%;
+    }
+    .about_work {
+        padding: 50px 0 0 0;
+    }
+    .about_us {
+        height: 1300px;
+    }
+    .work_examples {
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(3, 210px);
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        margin: 50px 0 0 0;
+    }
+    #image_block {
+        left: 10%;
+        top: 435%;
+    }
+    #image_block img {
+        width: 340px;
+        height: 320px;
+    }
+    .team_members {
+        margin: 120px 0 0 40px;
+    }
+    form {
+        margin-left: 0;
+    }
+    .contacts {
+        margin-left: 0;
+    }
+    .socials {
+        margin-left: 27%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .about_us {
+        padding-top: 50px;
+    }
+    .workplace {
+        width: 372px;
+        height: 464px;
+        margin-left: 0;
+    }
+    .works {
+        padding-top: 50px;
+    }
+    .work_examples {
+        height: 800px;
+        grid-template-columns: repeat(1, 270px);
+        grid-template-rows: repeat(6, 260px);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin: 50px 0 0 50px;
+    }
+    .work_examples img {
+        width: 270px;
+        height: 260px;
+    }
+    #image_block {
+        left: 4%;
+        top: 390%;
+    }
+    .works {
+        height: 1850px;
+    }
+    .team_members {
+        margin: 50px 0 0 0;
+    }
+    form {
+        width: 400px;
+        height: 460px;
+    }
+    .contacts {
+        width: 360px;
+        height: 460px;
+    }
+    #map {
+        width: 315px;
+    }
+    .socials {
+        margin-left: 23%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    header {
+        height: 650px;
+    }
+    .logo {
+        margin: 65px 0 0 100px;
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    header button {
+        margin: 138px 0 0 13%;
+    }
+    .glass_on_coaster {
+        margin: 50px 0 0 38%;
+    }
+    .workplace {
+        width: 300px;
+        height: 392px;
+        margin-left: 0;
+    }
+    .work_info {
+        width: 500px;
+        padding: 30px 20px;
+    }
+    .about_us {
+        height: 1240px;
+    }
+    .work_examples {
+        margin: 50px 0 0 10px;
+    }
+    #image_block img {
+        width: 320px;
+        height: 300px;
+    }
+    #image_block {
+        left: 0;
+        width: 320px;
+        height: 300px;
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    h4 {
+        font-weight: 500;
+        padding: 6px 0 0 15px;
+    }
+    .team_members {
+        height: 2416px;
+        grid-template-columns: repeat(1, 320px);
+        grid-template-rows: repeat(6, 390px);
+    }
+    .team_members img {
+        width: 320px;
+        height: 390px;
+    }
+    .member_info {
+        width: 205px;
+    }
+    .small_socials {
+        display: none;
+    }
+    .team_part {
+        height: 2570px;
+    }
+    .contacts {
+        width: 320px;
+        height: 460px;
+    }
+    #map {
+        width: 275px;
+    }
+    .follow_us {
+        height: 265px;
+    }
+    .socials {
+        margin-left: 18%;
+    }
+}
